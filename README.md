@@ -76,10 +76,10 @@ The dashboard consists of three main pages:
   [🔗 View Page](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0001.jpg)
 
 - **Products**: Detailed product-wise sales breakdown  
-  [🔗 View Page]([https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0002.jpg](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0002.jpg))
+  [🔗 View Page](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0002.jpg)
 
 - **Product View**: Individual product reviews, images, and sales data  
-  [🔗 View Page]([https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0003.jpg](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0003.jpg))
+  [🔗 View Page](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0003.jpg)
 
 ---
 
