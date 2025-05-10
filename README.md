@@ -1,107 +1,98 @@
 <div align="center">
-  <img src="https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20logo.png" alt="HDFC Logo" width="180" height="80" style="float: left; margin-right: 10 px;">
-  <p> <b>Amazon</b> - Unlocking trends and insights to optimize sales performance in the world's largest online marketplace..</p>
+  <img src="https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20logo.png" alt="HDFC Logo" width="180" height="80" style="float: left; margin-right: 10 px;">
+  <p> <b>Amazon</b> - Click, Filter, Discover: Amazon Sales Insights at Your Fingertips with Power BI.</p>
 </div>
 
 ### Amazon Sales Analysis Dashboard
 
-#### Project Overview
+### 📌 Project Overview
 
-This project involves creating a comprehensive dashboard to analyze sales data from Amazon's fashion category. The dashboard provides insights into sales performance, product categories, and trends, enabling stakeholders to make informed decisions based on data-driven insights.
+This Power BI dashboard project is designed to analyze and visualize sales performance within Amazon’s fashion category. It equips business users and analysts with clear, actionable insights into product trends, sales volumes, and customer behavior—making data exploration simple and intuitive.
 
-#### Table of Contents
-- Introduction
-- Dataset
-- Key Features
-- Steps Involved
-- Dashboard
-- Navigation
-- Technologies Used
-- Conclusion
+---
 
-#### Introduction
-The Amazon Sales Analysis Dashboard is designed to help users visualize and understand sales trends within the Amazon fashion category. By transforming and analyzing the data, the dashboard highlights critical metrics such as overall sales, units sold, and delivery counts.
+### 📂 Dataset
 
-#### Dataset
+This project uses two main data sources:
 
-The dataset used in this project includes:
+- **Amazon Fashion Sales Data** (CSV format)
+- **Amazon Sales Report** (Excel format with ASIN integration)
 
-- Amazon Fashion sales data (CSV format)
-- Amazon sales report (Excel format)
+---
 
-#### Key Features
+### 🚀 Key Features
 
-- **Interactive Visualizations**: View sales trends over time and across different categories.
-- **Category Slicers**: Filter data by specific product categories to focus on relevant metrics.
-- **Search Functionality**: Quickly find products based on names.
-- **Performance Metrics**: Display key performance indicators like total sales, total units sold, and seller counts.
+- **Interactive Visuals**: Track sales performance over time and across categories
+- **Category Slicers**: Filter visuals by product categories
+- **Search Bar**: Instantly find products by name
+- **KPI Cards**: View key performance indicators (sales, units sold, seller count)
+- **Product View Page**: See product-level images, reviews, and details
+- **Dynamic Navigation**: Navigate seamlessly across dashboard pages
 
-#### Steps Involved
+---
 
-**1. Data Import and Transformation**
+### 🔄 Steps Involved
 
-- Import the amazon-fashion – YT CSV file and clean the dataset.
-- Extract the first image from the image column and handle null values in the category column.
+**1. Data Import & Transformation**
+- Loaded the Amazon fashion CSV file and cleaned the data
+- Extracted image URLs and handled null category entries
 
-**2. Data Cleanup**
+**2. Data Preparation with Power Query**
+- Removed unnecessary columns
+- Created custom columns for cleaner visualization
+- Applied transformations and closed queries
 
-- Remove unnecessary columns.
-- Create new formatted columns for easier analysis.
-- Use Power Query to apply transformations and close the query.
+**3. Visual Setup**
+- Created slicers for category and image filtering
+- Implemented a search bar for product-level access
+- Added navigation buttons for smoother user experience
 
-**3. Creating Slicers and Visuals**
+**4. Data Integration**
+- Transformed Excel sales report (using first row as headers)
+- Merged sales data with product data using ASIN as a common key
 
-- Add slicers for categories and images.
-- Set up a search bar for product filtering.
-- Create navigation buttons for different dashboard pages.
+**5. DAX Calculations**
+- Built custom measures: total sales, total units, and seller count
+- Developed dynamic filters responding to slicers
 
-**4. Sales Data Integration**
+**6. Data Visualization**
+- Used clustered bar charts, area charts, and KPI cards
+- Designed layout to show high-level and detailed views
 
-- Load the Amazon Sales Report and transform the data to use the first row as headers.
-- Merge the sales price column using ASIN numbers to integrate data from both datasets.
+**7. Tooltip Product Page**
+- Created a tooltip page for individual product insights
+- Synced slicers for consistent filtering across dashboard views
 
-**5. Measures and Calculations**
+**8. Review Handling**
+- Handled missing review data by displaying zero instead of blanks
 
-- Create measures for total sales and quantities.
-- Develop filtering measures based on selected slicers.
-- Calculate overall sales and seller counts.
+---
 
-**6. Visual Representation**
-
-- Create clustered bar charts and area charts to visualize sales performance.
-- Set up cards to display overall sales, filtered sales, and seller counts.
-
-**7. Product Tooltip Page**
-
-- Create a separate worksheet for product details with custom dimensions.
-- Sync slicers based on categories for consistent filtering across views.
-
-**8. Review Measures**
-
-- Implement measures to handle product reviews, ensuring that a zero value is displayed instead of a blank.
-
-#### Dashboard Navigation 
+### 🧭 Dashboard Navigation
 
 The dashboard consists of three main pages:
 
-- **Overview**: Provides an executive summary of sales data and trends. <a href = "https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0001.jpg">View Dashboard</a>
+- **Overview**: High-level metrics and trend summary  
+  [🔗 View Page](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0001.jpg)
 
-- **Products**: Displays detailed product information and sales metrics. <a href = "https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0002.jpg">View Dashboard</a>
+- **Products**: Detailed product-wise sales breakdown  
+  [🔗 View Page]([https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0002.jpg](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0002.jpg))
 
-- **Product** View: Allows users to view specific product details, including images and reviews. <a href = "https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0003.jpg">View Dashboard</a>
+- **Product View**: Individual product reviews, images, and sales data  
+  [🔗 View Page]([https://github.com/jeevan499/Power-Bi-Projects-/blob/main/Amazon%20Dashboard/Amazon%20Dashboard%20PDF_page-0003.jpg](https://github.com/babban52/Click--Filter--Discover--Amazon-Sales-Insights-at-Your-Fingertips-with-Power-BI/blob/main/Amazon%20Dashboard%20PDF_page-0003.jpg))
 
-#### Technologies Used
-- **Power BI:** For creating interactive dashboards and visualizations.
-- **Power Query:** For data transformation and cleanup.
-- **DAX (Data Analysis Expressions):** For creating measures and calculations.
-  
-#### Dashboard
+---
 
-![Amazon Dashboard PDF_page-0001](https://github.com/user-attachments/assets/f0fa1537-d786-44da-b9ee-3dc39c9d9190)
-![Amazon Dashboard PDF_page-0002](https://github.com/user-attachments/assets/2c2e04dc-b959-44eb-bff1-55660e5cdeb4)
-![Amazon Dashboard PDF_page-0003](https://github.com/user-attachments/assets/d413e865-6256-4b67-9e50-0e46b820d609)
+### 🛠 Technologies Used
 
-#### Conclusion
+- **Power BI** – For data visualization and interactive dashboard creation  
+- **Power Query** – For data transformation and cleansing  
+- **DAX** – For custom metrics, calculations, and logic
 
-The Amazon Sales Analysis Dashboard provides a powerful tool for understanding sales dynamics within the Amazon fashion category. By leveraging data visualization techniques and interactive elements, users can gain insights that drive better business decisions.
+---
 
+### 📌 Conclusion
+
+This Amazon Fashion Sales Dashboard transforms raw sales data into insightful, visually compelling analytics. With advanced filtering, search, and product-level views, it empowers users to quickly understand performance trends, identify opportunities, and drive better business decisions in the fast-paced world of e-commerce.
+
+---
